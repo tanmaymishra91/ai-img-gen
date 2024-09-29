@@ -11,7 +11,7 @@ import requests
 from discord.ext import commands
 from time import sleep
 
-prefix = ('?')
+prefix = ('.')
 client = commands.Bot(intents=discord.Intents.all(),command_prefix=prefix,help_command=None)
 token = os.environ['token']
 
